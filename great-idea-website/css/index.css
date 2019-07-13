@@ -72,7 +72,9 @@ body {
 	width:55%;
 	margin: 0 auto;
 	padding: 10px;
+	
 }
+
 @media (width < 850px) {
 	body{
 		width:80%;
@@ -81,17 +83,19 @@ body {
 .child {
 	padding-top: 50px;
 	width: 50%;
-	margin: 0px;
+	margin-top: 0px;
 	float: left;
 	display: inline-block;
 	margin-bottom: 50px;
 }
 .child h1 {
 	text-align: center;
+	font-family: 'Bahianita';
+
 }
 .child2 {
 	width:50%;
-	margin: 0px;
+	margin-top: 0px;
 	float: left;
 	display: inline-block;
 	margin-bottom: 50px;
@@ -127,14 +131,21 @@ h1 {
 	font-size: 4.5em;
 }
 nav {
-	margin-top: 35px;
-	margin-bottom: 100px;
-}
-.container {
+	margin-top: 0px;
+	padding-bottom: 40px;
+	margin-bottom: 50px;
+	background:darkgrey; 
 
 }
+.nav-container {
+	position: fixed;
+	width:55%;
+	margin-bottom: 50px;
+	top: 0px;
+}
+
 nav a {
-	padding: 0% 4% 0% 0%; 
+	padding: 1% 4% 0% 1%; 
 	color:lightgrey;
 	text-decoration: none;
 	height: 10px;
@@ -177,6 +188,8 @@ nav a:hover {
 	margin-bottom: 300px;
 }
 
+
+
 .copyright {
 	text-align: center;
 	margin-top: 75px;
@@ -184,4 +197,15 @@ nav a:hover {
 }
 .address, .phone {
 	margin-bottom:25px;
+}
+
+.content-start {
+	margin-top: 100px;
+}
+
+.centered {
+	text-align: center;
+}
+.margin-bot {
+	margin-bottom: 50px;
 }
